@@ -2,7 +2,7 @@
 cordova-gmv-barcode-scanner
 ===========================
 
-Modificado para compatibilidad con Android 10
+Modificado para compatibilidad con Android 10. Fork de repositorio https://github.com/dealrinc/cordova-gmv-barcode-scanner
 -----------------------
 
 The purpose of this project is to provide a barcode scanner utilizing the Google Mobile Vision library for the Cordova framework on iOS and Android. The GMV library is incredibly performant and fast in comparison to any other barcode reader that I have used that are free. Additionally, I built it to perform live validity checks on VIN numbers for use as a VIN scanner and for drivers license scanning through the PDF 417 barcode on most identification cards.
@@ -15,7 +15,7 @@ Installation
 ------------
 
 ````
-cordova plugin add cordova-gmv-barcode-scanner
+cordova plugin add git@github.com:ogaponte/cordova-gmv-barcode-scanner.git
 ````
 
 Usage
